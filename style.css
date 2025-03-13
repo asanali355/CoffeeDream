@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5efe6;
+    color: #4a2c2a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 20px 0;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d4a373;
+}
+
+h1, h2, h3 {
+    color: #6d4c41;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu-item {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid #8b5a2b;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #8b5a2b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6d4c41;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #8b5a2b;
+    color: white;
+}

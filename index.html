@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoffeeDream - Ваш идеальный кофе и десерты">
+    <title>CoffeeDream - Вкус и Уют</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" alt="CoffeeDream">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#delivery">Доставка</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h1>Добро пожаловать в CoffeeDream!</h1>
+                <p>Насладитесь ароматным кофе и изысканными десертами в уютной атмосфере.</p>
+                <p>Мы создаем для вас место, где каждый гость чувствует себя как дома. Наше меню предлагает разнообразие вкусов — от классического эспрессо до авторских напитков и свежей выпечки.</p>
+                <img src="кофейня.jpg"Интерьер CoffeeDream">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.6467205396193!2d71.4630008753031!3d51.133424137956304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424583fd17720d3f%3A0xdc636acfb5ec574f!2z0YPQuy4g0JzQsNC50LrQsNC50YvQvSwgMDIwMDAwINCQ0YHRgtCw0L3QsA!5e0!3m2!1sru!2skz!4v1741797959274!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <h2>Меню</h2>
+
+                <h3>Кофе</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <img src="капучино.jpg" alt="Капучино">
+                        <h4>Капучино</h4>
+                        <p>250/350 мл</p>
+                        <p>1500/2000 тг</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="латте.jpg" alt="Латте">
+                        <h4>Латте</h4>
+                        <p>300/400 мл</p>
+                        <p>2000/2600 тг</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="экспресо.jpg" alt="Эспрессо">
+                        <h4>Эспрессо</h4>
+                        <p>50 мл</p>
+                        <p>1200 тг</p>
+                    </div>
+                </div>
+
+                <h3>Десерты</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <img src="чизкейк.jpg" alt="Чизкейк">
+                        <h4>Чизкейк</h4>
+                        <p>120 г</p>
+                        <p>1500 тг</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="круассан.jpg" alt="Круассан">
+                        <h4>Круассан с шоколадом</h4>
+                        <p>1 шт</p>
+                        <p>1000 тг</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="тирамису.jpg" alt="Тирамису">
+                        <h4>Тирамису</h4>
+                        <p>150 г</p>
+                        <p>1700 тг</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <div class="container">
+                <h2>Контакты</h2>
+                <p>Адрес: ул. Счастья, 15</p>
+                <p>Телефон: +7 (777) 123-45-67</p>
+                <p>Часы работы: с 8:00 до 22:00</p>
+                <p><a href="https://instagram.com/coffeedream" target="_blank">Мы в Instagram</a></p>
+            </div>
+        </section>
+
+        <section id="delivery">
+            <div class="container">
+                <h2>Оформление заказа</h2>
+                <form>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="address">Адрес доставки:</label>
+                    <input type="text" id="address" name="address" required>
+
+                    <label for="order">Ваш заказ:</label>
+                    <textarea id="order" name="order" rows="4" required></textarea>
+
+                    <button type="submit">Оформить заказ</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CoffeeDream. Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
